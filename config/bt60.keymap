@@ -3,6 +3,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
+&kscan0 {
+    debounce-period = <15>;
+};
 
 / {
 	keymap {
