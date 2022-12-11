@@ -35,3 +35,11 @@ CONFIG_LED_PWM=y
 CONFIG_ZMK_BACKLIGHT=y
 CONFIG_ZMK_BACKLIGHT_ON_START=n
 CONFIG_BUILD_OUTPUT_UF2=y
+
+# Power management
+# - enable deep sleep
+CONFIG_ZMK_SLEEP=y
+# - set deep sleep timeout
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=600000
+# - set normal sleep timeout
+CONFIG_ZMK_IDLE_TIMEOUT=30000
